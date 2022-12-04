@@ -1,3 +1,5 @@
+library(tidyverse)
+source("src/sharedFunx.R")
 
 day3 = function() {
   input = readInputFile(3)

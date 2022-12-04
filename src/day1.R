@@ -2,6 +2,7 @@ library(tidyverse)
 source("src/sharedFunx.R")
 
 
+
 day1 = function() {
   input = readInputFile(1)
   q1 = input %>%
