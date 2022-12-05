@@ -5,7 +5,7 @@ readInputFile = function(dayNumber) {
 }
 
 returnAnswerRow = function(dayNumber, part1, part2) {
-  return(tibble_row(Day = dayNumber, "Part 1" = part1, "Part 2" = part2))
+  return(tibble_row(Day = dayNumber, "Part 1" = as.character(part1), "Part 2" = as.character(part2)))
 }
 
 is_subset = function(x1, x2, y1, y2) {
