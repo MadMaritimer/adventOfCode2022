@@ -8,6 +8,7 @@ source("src/day5.R")
 source("src/day6.R")
 source("src/day7.R")
 source("src/day8.R")
+source("src/day9.R")
 
 answerTable = bind_rows(
   day1(),
@@ -17,5 +18,6 @@ answerTable = bind_rows(
   day5(),
   day6(),
   day7(),
-  day8()
+  day8(),
+  day9()
 )

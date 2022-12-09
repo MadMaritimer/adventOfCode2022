@@ -64,7 +64,6 @@ day8 = function() {
     as_tibble()
   
   visibility_Full = visibility_Top | visibility_Bottom | visibility_Left | visibility_Right
-  
   a1 = sum(visibility_Full)
   
   
