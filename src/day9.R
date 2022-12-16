@@ -1,9 +1,6 @@
 library(tidyverse)
 source("src/sharedFunx.R")
 
-
-input = readInputFile(9)
-
 fillInHeadPath = function(prevPoints, nextPoint) {
   startPoint = prevPoints[length(prevPoints)] 
   
@@ -47,6 +44,7 @@ calculateTailPos = function(tailCoords, headCoords) {
 }
 
 day9 = function() {
+  input = readInputFile(9)
   q1 = input %>%
     mutate(direction = str_split_fixed(X1," ", n = 2)[,1]) %>%
     mutate(steps = as.numeric(str_split_fixed(X1," ", n = 2)[,2])) %>%

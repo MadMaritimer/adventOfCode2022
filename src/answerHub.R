@@ -14,6 +14,7 @@ source("src/day11.R")
 source("src/day12.R")
 source("src/day13.R")
 source("src/day14.R")
+source("src/day15.R")
 
 
 answerTable = bind_rows(
@@ -30,5 +31,6 @@ answerTable = bind_rows(
   day11(showYourWork = FALSE),
   day12(),
   day13(),
-  day14(showYourWork = FALSE)
+  day14(showYourWork = FALSE),
+  day15(showYourWork = FALSE)
 )
